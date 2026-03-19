@@ -9,7 +9,7 @@
 ## Install
 
 ```bash
-npm install ihyee
+npm install @aizukanne/ihyee
 ```
 
 ## Quick Start
