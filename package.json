@@ -1,0 +1,51 @@
+{
+  "name": "ihyee",
+  "version": "0.1.0",
+  "description": "JavaScript/TypeScript SDK for the ihyee web intelligence API",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "ihyee",
+    "web-intelligence",
+    "web-scraping",
+    "search",
+    "content-extraction",
+    "api-client",
+    "sdk"
+  ],
+  "author": "Delta Telematics",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aizukanne/ihyee-js.git"
+  },
+  "homepage": "https://github.com/aizukanne/ihyee-js#readme",
+  "bugs": {
+    "url": "https://github.com/aizukanne/ihyee-js/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.1.0"
+  }
+}
