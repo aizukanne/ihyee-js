@@ -1,8 +1,8 @@
 # ihyee
 
-[![npm](https://img.shields.io/npm/v/ihyee)](https://www.npmjs.com/package/ihyee)
-[![Node](https://img.shields.io/node/v/ihyee)](https://www.npmjs.com/package/ihyee)
-[![License](https://img.shields.io/npm/l/ihyee)](https://github.com/aizukanne/ihyee-js/blob/main/LICENSE)
+[![npm](https://img.shields.io/npm/v/@aizukanne/ihyee)](https://www.npmjs.com/package/@aizukanne/ihyee)
+[![Node](https://img.shields.io/node/v/@aizukanne/ihyee)](https://www.npmjs.com/package/@aizukanne/ihyee)
+[![License](https://img.shields.io/npm/l/@aizukanne/ihyee)](https://github.com/aizukanne/ihyee-js/blob/main/LICENSE)
 
 **JavaScript/TypeScript SDK for the ihyee web intelligence API** — search, fetch, and understand any web page in one API call.
 
